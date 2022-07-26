@@ -1,7 +1,7 @@
 import { styled } from '@mui/material';
 
 export const ListaStyled = styled('ul')`
-    width: 100\%;
+    width: 100%;
     max-width: 800px;
     margin: 0 auto;
     padding: ${({ theme }) => theme.spacing(2)};
@@ -10,7 +10,7 @@ export const ListaStyled = styled('ul')`
 
 export const ItemLista = styled('li')`
     display: grid;
-    grid-template-columns: (2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: ${({ theme }) => theme.spacing(5)};
     margin-bottom: ${({ theme }) => theme.spacing(5)};
     
