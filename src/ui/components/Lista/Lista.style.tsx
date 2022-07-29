@@ -22,7 +22,7 @@ export const ItemLista = styled('li')`
 `
 
 export const Foto = styled('img')`
-    width: 100%;
+    width: 80%;
 `
 
 export const Informacoes = styled('div')`
